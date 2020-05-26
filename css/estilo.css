@@ -21,22 +21,27 @@
     font-family: arial;
     font-size: 10pt;
     text-decoration: none;
-    color: rgba(0, 0, 255, 0.753);
+    color: rgb(6, 6, 153);
     background-color: #e3e3e3;
     width: 100%;
     display: inline-block;
     padding: 10px 0px;
 }
 #estrutura #menu a:hover{ /*Só aparecerá quando o usuário passar o mouse no elemento*/
-    background-color: rgba(0, 0, 255, 0.753);
+    background-color: rgb(6, 6, 153);
     color: white;
 }
 #estrutura #menu a.atual{ /*item do menu selecionado*/
-    background-color: rgb(99, 87, 168);
+    background-color: rgb(6, 6, 153);
     color: white
 }
 #estrutura #conteudo .imghome img{
     width: 370px;
     height: 250px;
     margin: 5px;
+}
+#rodape {
+    padding: 20px 0px; font-family: arial; background-color: rgb(6, 6, 153);
+    color: #efff; height: 60px; bottom: 0;
+    width: 100%; text-align: center;
 }
