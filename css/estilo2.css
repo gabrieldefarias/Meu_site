@@ -1,16 +1,18 @@
-#estrutura{
-    background-color: white; /*cor de fundo da pagina*/
-    width: 80%; /*largura*/
-    margin-left: auto; /*margem a esquerda*/
-    margin-right: auto; /*margem a direita*/
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: "h h h h h h"
+                          "m m m m a a"
+                          "f f f f f f";
+      grid-gap: 2px;
 }
-h1{
-    background-image: linear-gradient(to right, white, blue);
+header{
+    grid-area: h;
 }
-#estrutura #menu ul{
-    padding: 0px; /*espaçamento*/
+aside{
+    grid-area: a;
 }
-#estrutura #menu li{
+li{
     /*retirar as marcas do marcador*/
     list-style: none;
     /*alinhar os links na horizontal*/
@@ -19,7 +21,7 @@ h1{
     text-align: center;
     padding: 0px 0px;
 }
-#estrutura #menu a{
+a{
     /*a herf*/
     font-family: arial;
     font-size: 10pt;
@@ -30,20 +32,23 @@ h1{
     display: inline-block;
     padding: 10px 0px;
 }
-#estrutura #menu a:hover{ /*Só aparecerá quando o usuário passar o mouse no elemento*/
+    a:hover{ /*Só aparecerá quando o usuário passar o mouse no elemento*/
     background-color: rgb(6, 6, 153);
     color: white;
 }
-#estrutura #menu a.atual{ /*item do menu selecionado*/
-    background-color: rgb(6, 6, 153);
-    color: white
+main{
+    grid-area: m;
 }
-#estrutura #conteudo .imghome img{
-    width: 310px;
+img{
+    width: 400px;
     height: 220px;
     margin: 2px;
 }
-#rodape {
+footer{
+    grid-area: f;
+}
+footer #class{
+    grid-area: f;
     padding: 20px 0px; font-family: arial; background-color: rgb(6, 6, 153);
     color: white; height: 60px; bottom: 0;
     width: 100%; text-align: center;
