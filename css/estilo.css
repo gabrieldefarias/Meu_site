@@ -4,6 +4,10 @@
     margin-left: auto; /*margem a esquerda*/
     margin-right: auto; /*margem a direita*/
 }
+h1{
+    background-image: linear-gradient(to right, white, blue);
+}
+
 #estrutura #menu ul{
     padding: 0px; /*espaçamento*/
 }
