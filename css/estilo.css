@@ -1,3 +1,4 @@
+  
 #estrutura{
     background-color: white; /*cor de fundo da pagina*/
     width: 80%; /*largura*/
@@ -39,9 +40,9 @@ h1{
     color: white
 }
 #estrutura #conteudo .imghome img{
-    width: 300px;
+    width: 310px;
     height: 220px;
-    margin: 5px;
+    margin: 2px;
 }
 #rodape {
     padding: 20px 20px; font-family: arial; background-color:  rgb(6, 6, 153);
