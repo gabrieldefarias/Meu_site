@@ -3,9 +3,7 @@
     width: 80%; /*largura*/
     margin-left: auto; /*margem a esquerda*/
     margin-right: auto; /*margem a direita*/
-}
-h1{
-    background-image: linear-gradient(to right, white, blue);
+    background-image: linear-gradient(to right, white, #e3e3e3);
 }
 #estrutura #menu ul{
     padding: 0px; /*espaçamento*/
@@ -15,7 +13,7 @@ h1{
     list-style: none;
     /*alinhar os links na horizontal*/
     display: inline-block;
-    width: 220px;
+    width: 329px;
     text-align: center;
     padding: 0px 0px;
 }
@@ -39,8 +37,8 @@ h1{
     color: white
 }
 #estrutura #conteudo .imghome img{
-    width: 310px;
-    height: 220px;
+    width: 490px;
+    height: 280px;
     margin: 2px;
 }
 #rodape {
