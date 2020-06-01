@@ -18,9 +18,13 @@
 }
 header{
     grid-area: h;
+    padding-left: 2%;
+    background-color: rgb(6, 6, 153);
+    color: white
 }
 aside{
     grid-area: a;
+    padding-left: 2%;
 }
 li{
     /*retirar as marcas do marcador*/
@@ -46,6 +50,7 @@ a:hover{
 }
 main{
     grid-area: m;
+    padding-left: 2%;
 }
 img{
     width: 340px;
@@ -54,6 +59,7 @@ img{
 }
 footer{
     grid-area: f;
+    padding-left: 2%;
 }
 footer #class{
     grid-area: f;
