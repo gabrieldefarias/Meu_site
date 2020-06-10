@@ -22,18 +22,18 @@
     font-family: arial;
     font-size: 10pt;
     text-decoration: none;
-    color: rgb(6, 6, 153);
+    color: blue;
     background-color: white;
     width: 100%;
     display: inline-block;
     padding: 10px 0px;
 }
 #estrutura #menu a:hover{ /*Só aparecerá quando o usuário passar o mouse no elemento*/
-    background-color: rgb(6, 6, 153);
+    background-color: blue;
     color: white;
 }
 #estrutura #menu a.atual{ /*item do menu selecionado*/
-    background-color: rgb(6, 6, 153);
+    background-color: blue;
     color: white
 }
 #estrutura #conteudo .imghome img{
@@ -42,8 +42,10 @@
     margin: 2px;
     border: 1px solid;
 }
-#rodape {
-    padding: 20px 0px; font-family: arial; background-color: rgb(6, 6, 153);
-    color: white; height: 60px; bottom: 0;
-    width: 100%; text-align: center;
+#rodape{
+    border: 1px solid;
+    background-color: blue;
+    color: white;
+    padding: 20px 0px;
+    text-align: center;
 }
